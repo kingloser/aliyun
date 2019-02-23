@@ -44,14 +44,14 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.qosBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtIp = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtPort = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtClientId = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.qosBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,6 +143,7 @@
             this.txtUsername.Size = new System.Drawing.Size(115, 32);
             this.txtUsername.TabIndex = 8;
             this.txtUsername.Text = "username001";
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label3
             // 
@@ -230,26 +231,6 @@
             this.groupBox1.Text = "用户设置";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(641, 32);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(160, 15);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Qos等级（仅支持0-2）";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // qosBox
-            // 
-            this.qosBox.Location = new System.Drawing.Point(644, 74);
-            this.qosBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.qosBox.Multiline = true;
-            this.qosBox.Name = "qosBox";
-            this.qosBox.Size = new System.Drawing.Size(132, 42);
-            this.qosBox.TabIndex = 20;
-            this.qosBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -312,6 +293,26 @@
             this.txtClientId.TabIndex = 14;
             this.txtClientId.Text = "client001";
             this.txtClientId.TextChanged += new System.EventHandler(this.txtClientId_TextChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(641, 32);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(160, 15);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Qos等级（仅支持0-2）";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // qosBox
+            // 
+            this.qosBox.Location = new System.Drawing.Point(644, 74);
+            this.qosBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.qosBox.Multiline = true;
+            this.qosBox.Name = "qosBox";
+            this.qosBox.Size = new System.Drawing.Size(132, 42);
+            this.qosBox.TabIndex = 20;
+            this.qosBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // FormClient
             // 

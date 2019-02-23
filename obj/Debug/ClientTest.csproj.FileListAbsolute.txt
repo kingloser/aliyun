@@ -30,3 +30,15 @@ C:\Users\loser\Desktop\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
 C:\Users\loser\Desktop\ClientTest\obj\Debug\MqttServerTest.exe
 C:\Users\loser\Desktop\ClientTest\obj\Debug\MqttServerTest.pdb
 C:\Users\loser\Desktop\ClientTest\obj\Debug\Test.Communication.Communication.resources
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\bin\Debug\MqttServerTest.exe.config
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\bin\Debug\MqttServerTest.exe
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\bin\Debug\MqttServerTest.pdb
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\Test.Communication.Communication.resources
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\MqttServerTest.FormClient.resources
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\MqttServerTest.exe
+C:\Users\loser\Desktop\ClientTest - 副本 - 副本\aliyun\obj\Debug\MqttServerTest.pdb

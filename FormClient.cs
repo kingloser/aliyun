@@ -37,6 +37,11 @@ namespace MqttServerTest
 
         private async void BtnPublish_Click(object sender, EventArgs e)
         {
+            if (mqttClient==null)
+            {
+                MessageBox.Show("MQTT客户端尚未连接！");
+                return;
+            }
             await Publish();
         }
 
@@ -422,6 +427,11 @@ namespace MqttServerTest
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }
